@@ -1,0 +1,31 @@
+.form__input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 40%;
+  height: 10%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  float: left;
+}
+
+.search-input {
+  width: calc(100% - 105px);
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("https://www.w3schools.com/css/searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px !important;
+  transition: width 0.4s ease-in-out;
+  height: 56px;
+}

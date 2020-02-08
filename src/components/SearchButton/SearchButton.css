@@ -1,0 +1,25 @@
+.box {
+  border: 1px solid red;
+}
+.buttonSearch {
+  color: #fff !important;
+  text-decoration: none;
+  background: #7cfc00;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  width: auto;
+  float: left;
+  width: 100px;
+}
+
+.buttonSearch:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
